@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #1f2937;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+/* Style the logo */
+header img {
+  width: 80px;
+  border-radius: 50%;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header a {
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  padding-bottom: 100px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 800;
+}
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 10px 0px 10px 0px;
+}
+.hero picture img {
+  width: 450px;
+  padding-left: 40px;
+  margin-bottom: 50px;
+}
+
+.hero button {
+  width: 100px;
+  height: 40px;
+  border: 1px blue;
+  border-radius: 10px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  font-weight: 600;
+  padding: 10px;
+  margin: 15px 0px 15px 0px;
+}
+
+.hero button:hover {
+  background-color: #e5e7eb;
+  color: #3882f6;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.hero {
+  background-color: #1f2937;
+  padding-top: 100px;
+}
+
+h2 {
+  text-align: center;
+  padding: 30px 0 30px 0;
+  font-size: 32px;
+  color: #1f2937;
+}
+.offering div {
+  display: flex;
+  justify-content: center;
+}
+
+figure {
+  border: 2px solid #dedede;
+  margin: 10px;
+  width: 220px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 3px 12px rgba(121, 120, 120, 0.25);
+  color: #1f2937;
+}
+
+figcaption p {
+  padding: 15px;
+}
+
+figure:hover {
+  transform: scale(1.1);
+  transition: 0.8s ease;
+}
+
+figure img {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+blockquote {
+  text-align: center;
+  background-color: #e5e7eb;
+  padding: 100px 0px 100px 0px;
+  font-size: 36px;
+  padding: 80px 120px 80px 120px;
+  margin: 50px 0px 50px 0px;
+}
+strong span {
+  font-size: 22px;
+}
+
+.cta {
+  display: flex;
+  background-color: #3882f6;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+  width: 50%;
+  border-radius: 5px;
+  margin: 50px auto;
+  color: #e5e7eb;
+}
+
+.cta button {
+  color: #e5e5e5;
+  background-color: #3882f6;
+  width: 100px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-top: 18px;
+  margin-left: 50px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 5px;
+}
+.cta button:hover {
+  background-color: #e5e7eb;
+  color: #3882f6;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  padding: 50px;
+}
+footer a {
+  text-decoration: none;
+  color: #e5e7eb;
+  border: 1px solid whitesmoke;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+footer p {
+  color: #e5e7eb;
+  margin-top: 20px;
+}
+
+footer a:hover {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+  header a {
+    color: #e5e7eb;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero h1 {
+    font-size: 28px;
+    color: #f9faf8;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero p {
+    font-size: 24px;
+    color: #e5e7eb;
+    padding: 10px 0px 0px 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero button {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    font-weight: 700;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .offering div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  blockquote {
+    padding: 40px 30px 40px 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .testimonial blockquote {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  blockquote span {
+    display: block;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cta {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    padding: 20px 5px 20px 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cta h3 {
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cta button {
+    margin: 10px auto;
+  }
+}
